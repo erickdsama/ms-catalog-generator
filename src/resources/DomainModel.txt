@@ -1,0 +1,6 @@
+import { CatalogModel } from '../../../../common/domain/CatalogModel';
+import { TemplateDoctype } from '../doctypes/Template';
+
+export interface TemplateModel extends TemplateDoctype, CatalogModel {}
+
+export default TemplateModel;

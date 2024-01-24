@@ -1,0 +1,8 @@
+import { DoctypeFetcherApi } from '../../../common/http/DoctypeFetcherApi';
+import { TemplateDoctype } from '../domain/doctypes/Template';
+
+export class TemplateFetcher extends DoctypeFetcherApi<TemplateDoctype> {
+  protected readonly doctype = 'DOCTYPE_NAME';
+}
+
+export default TemplateFetcher;
